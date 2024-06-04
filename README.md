@@ -299,3 +299,5 @@ IoT 개발자 과정  ASP.NET 리포지토리
 
         <!-- ![이미지](https://github.com/YooChangWoo/basic-aspnet-2024/blob/main/image/an0001.png)>
 
+        - Codehal 슬라이더 애니메이션 웹페이지 튜토리얼 따라하기
+
