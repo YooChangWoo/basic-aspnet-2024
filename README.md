@@ -291,5 +291,7 @@ IoT 개발자 과정  ASP.NET 리포지토리
     - 웹페이지 클로닝
         - 핀터레스트 타입 + 부트스트랩 웹페이지 만들기(완료)
 
-        
-        
+
+https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/e2c084ae-5476-460c-b211-f65bf202b5d8
+
+
