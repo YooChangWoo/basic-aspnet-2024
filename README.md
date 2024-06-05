@@ -291,15 +291,13 @@ IoT 개발자 과정  ASP.NET 리포지토리
     - 웹페이지 클로닝
         - 핀터레스트 타입 + 부트스트랩 웹페이지 만들기(완료)
 
-        https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/e2c084ae-5476-460c-b211-f65bf202b5d8
+          https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/e2c084ae-5476-460c-b211-f65bf202b5d8
 
         - Codehal 유튜버 로그인 웹페이지 튜토리얼 따라하기
 
-        <img src="https://raw.githubusercontent.com/YooChangWoo/basic-aspnet-2024/main/image/an0001.png" width="730" alt="codehal 로그인창 따라하기">
+          <img src="https://raw.githubusercontent.com/YooChangWoo/basic-aspnet-2024/main/image/an0001.png" width="730" alt="codehal 로그인창 따라하기">
 
-        <!-- ![이미지](https://github.com/YooChangWoo/basic-aspnet-2024/blob/main/image/an0001.png)>
-
-     - Codehal 슬라이더 애니메이션 웹페이지 튜토리얼 따라하기
+        - Codehal 슬라이더 애니메이션 웹페이지 튜토리얼 따라하기
 
 
 ## 6일차 
@@ -307,9 +305,6 @@ IoT 개발자 과정  ASP.NET 리포지토리
     - 웹페이지 클로닝
         - Codehal 슬라이더 애니메이션 웹페이지 튜토리얼 따라하기 (완료)
 
-
-        https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/334ff037-fbe1-4e42-ad4d-6beb0945c6f2
-
-
+          https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/334ff037-fbe1-4e42-ad4d-6beb0945c6f2
 
         - 개인 웹페이지 클로닝
