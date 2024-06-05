@@ -1,7 +1,7 @@
 # basic-aspnet-2024
 IoT 개발자 과정  ASP.NET 리포지토리
 
-## 1일차(2024-05-29)
+## 1일차
 - 웹 기술 개요
     - World Wide Web (Web은 인터넷이 아니라 인터넷의 한 파트)
     - Full Stack
@@ -102,7 +102,7 @@ IoT 개발자 과정  ASP.NET 리포지토리
         - div : 블록 형식으로 공간 분할(행간으로)
         - span : 인라인 형식으로 공간 분할(한줄로)
 
-## 2일차(2024-05-30)
+## 2일차
 - 보기 > 자동줄바꿈(매우 유용) ★★★
 - HTML5
     - 시맨틱 웹 
@@ -259,7 +259,7 @@ IoT 개발자 과정  ASP.NET 리포지토리
         - js 파일 다운로드 후 사용
         -  CDN 링크를 사용(추천)
 
-## 4일차(24-06-03)
+## 4일차
 - HTML + CSS + Js(jQuery) 응용
     - jQuery 응용
         - javascript와 jQuery를 혼용해도 상관없음
@@ -301,10 +301,13 @@ IoT 개발자 과정  ASP.NET 리포지토리
 
      - Codehal 슬라이더 애니메이션 웹페이지 튜토리얼 따라하기
 
+
 ## 6일차 
 - HTML + CSS + js(jQuery)응용
     - 웹페이지 클로닝
         - Codehal 슬라이더 애니메이션 웹페이지 튜토리얼 따라하기 (완료)
+
+        https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/334ff037-fbe1-4e42-ad4d-6beb0945c6f2
 
         - 개인 웹페이지 클로닝
 
