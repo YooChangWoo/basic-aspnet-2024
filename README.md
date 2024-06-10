@@ -311,6 +311,9 @@ IoT 개발자 과정  ASP.NET 리포지토리
 ## 7일차        
 - 개인 웹페이지 클로닝
 
+https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/4a2a9746-908e-4bc2-a5c4-2ce323eff689
+
+
 
 ## 8일차
 - ASP.NET 
