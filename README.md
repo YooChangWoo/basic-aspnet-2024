@@ -309,7 +309,7 @@ IoT 개발자 과정  ASP.NET 리포지토리
 
         - 개인 웹페이지 클로닝
 
-## 9일차
+## 8일차
 - ASP.NET 
     - ASP.NET 역사
         - 1990년대 MS가 웹 서버기술로 ASP(Active Server Page)를 배포 like JSP(Java Server Page)
@@ -323,7 +323,7 @@ IoT 개발자 과정  ASP.NET 리포지토리
         - 초창기에 스파게티 코드를 거의 그대로 사용. 성능도 안 좋고 ...
         - 2009년 ASP.NET MVC(Model View Controller 디자인패턴) 공표. 성능은 좋아짐
         - 하지만, 윈도우에서만 동작
-        - 모든 OS플랫폼에서 동작할 수 있는 .NET Core를 재출시
+        - 2016년 모든 OS플랫폼에서 동작할 수 있는 .NET Core를 재출시
         - 거기에 웹 서버기술을 또 다시 만듦 => ASP.NET Core
 
     - .NET Core(현재는 .NET 9.0, Core라는 이름은 사용 안 함)의 장점
@@ -391,3 +391,10 @@ IoT 개발자 과정  ASP.NET 리포지토리
             ...
             Done.
             ```
+
+## 9일차
+-ASP.NET Core MVC
+    - 필요 이론
+    - 연습
+    - 개인 포트폴리오 웹사이트
+    - Bootstrap 테마 적용
