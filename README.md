@@ -352,7 +352,8 @@ IoT 개발자 과정  ASP.NET 리포지토리
         - 현재 기본적인 웹 개발의 가장 표준
         - Java 계열도 Spring (Boot) MVC로 개발
         - MVC 개념도
-            <img src="https://raw.githubusercontent.com/YooChangWoo/basic-aspnet-2024/main/images/an0002.png">
+            <img src=![an0002](https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/95673693-7a2b-4ecf-97f8-b5f4a4bf9ef0)
+
 
         - 프론트엔드가 예전엔 스파게티코드가 무지 심했다면, 현재는 스파게티코드가 최소화 되어있음(SpringBoot, Python flask는 모두 동일)
         - IIS Express Server - VS에서 ASP.NET 웹 사이트를 운영하는 개발용 웹 서버
