@@ -317,10 +317,16 @@ https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/4a2a9746-908e-
 
 ## 8일차
 - ASP.NET 
+        - 웹퍼블리시 - HTML, CSS, Javascript만 가지고 웹페이지만 개발
+        - 프론트엔드 개발자 - 웹퍼블리시가 만든 웹페이지에 백엔드와 연계를 해서 실제 동작하는 페이지 개발
+            - json, 백엔드, DB전반적인 개발 지식
+
     - ASP.NET 역사
         - 1990년대 MS가 웹 서버기술로 ASP(Active Server Page)를 배포 like JSP(Java Server Page)
         - ASP는 .NET으로 된 언어가 아닌, VBScript를 사용. 확장자(.asp)
         - 스파게티 코드! - HTML + CSS + javascript + VBscript 짬뽕으로 만든 웹 페이지
+            - 프론트엔드 + 백엔드 소스가 모두 한페이지에...
+            - 다만, 현재 프론트엔드도 벡엔드 소스가 일부는 포함되어 있음
         - 많이 사용되었지만 유지보수 어렵고, 성능이 나쁘고 ...
 
         - 2000년대 MS가 .NET Framework를 발표
@@ -331,6 +337,7 @@ https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/4a2a9746-908e-
         - 하지만, 윈도우에서만 동작
         - 2016년 모든 OS플랫폼에서 동작할 수 있는 .NET Core를 재출시
         - 거기에 웹 서버기술을 또 다시 만듦 => ASP.NET Core
+        - ASP.NET은 C#이 아닌 다른 .NET 언어로도 개발가능. 그중에서 C#을 사용
 
     - .NET Core(현재는 .NET 9.0, Core라는 이름은 사용 안 함)의 장점
         - 빠르고 오픈소스
@@ -399,8 +406,50 @@ https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/4a2a9746-908e-
             ```
 
 ## 9일차
--ASP.NET Core MVC
-    - 필요 이론
-    - 연습
-    - 개인 포트폴리오 웹사이트
-    - Bootstrap 테마 적용
+- ASP.NET Core MVC
+    - MVC 리뷰
+        - Model은 개발자가 따로 만듦
+        - View, Controller 폴더는 미리 만들어짐
+        - 웹브라우저에서 접근할 페이지를 만드려면(작업순서)
+            1. 해당 컨트롤러를 생성
+            2. 뷰를 같이 생성할지 나중에 따로 만들지 선택
+            3. 컨트롤러 이름과 동일한 뷰 폴더, 메서드 이름과 동일한 cshtml 페이지가 생성
+            4. 컨트롤러에 모델에 DB와 연결될 내용을 작성
+            5. 모델내용을 뷰로 리턴
+
+- ASP.NET Core 포트폴리오 웹사이트,  MyPortfolio
+    1. Visual Studio 에서 ASP.NET Core 웹앱(MVC) 프로젝트 생성
+    2. 부트스크랩 템플릿 사이트, 알맞은 템플릿 다운로드
+    3. wwwroot 폴더 밑에 템플릿 html,css,js,이미지 등 위치
+    4. 템플릿 페이지에 공통적인 부분(Header, Bottom)은 _layout.cshtml에 위치
+    5. 중간에 페이지마다 변경되는 부분은 각 Ciews 밑에 포함
+    6. _layout.cshtml에 공통부분 옮기기 
+    7. index.cshtml에 index.html에서 공통부분 외 영역 옮기기
+    8. index.cshtml 내용 수정
+    
+    9. ResumeController.cs 생성, DB관련된 설정이 없으면 모델, 뷰를 만들기 어려움
+    10. Resume란 폴더가 Views 아래에 만듦. Index.cshtml
+    11. resume.html에 네비게이션 아래 변경부분만 복사해서 index.cshtml에 붙여넣기
+    12. Project, Contact도 동일하게 적용
+
+    13. Code First방식으로 Doard테이블 생성
+    14. NuGet 패키지에서 Microsoft.Entity Framework 패키지 검색, 설치
+    15. Microsoft.EntityFrameworkCore.Tools 검색 설치
+    16. Microsoft.EntityFrameworkCore.SqlServer 검색 설치
+    17. model/Board.cd 로 엔티티 클래스 생성
+    18. appsettings.json 에 DB 연결문자열 추가
+    19. Data/AppDbContext.cs
+    20. Program.cs 에 DbContext 종속성 주입
+    21. NeGet패키지 관리자 콘솔 > Add-Migration, Update-Database 진행
+    22. _layout.cshtml Board 링크 수정
+    23. /Controller/BoardController.cs를 생성(모델, 뷰 연결)
+        - Entity Frmework를 사용하며 뷰가 포함된 MVC컨트롤러
+
+10일차
+- ASP.NET Core 포트폴리오 웹사이트, MyPortfolio
+    1. Board.cs 멤버속성 ModeDate -> ModDate
+    2. 테이블 삭제, 재성성
+    3. 게시판 관련된 화면 수정작업
+    4. 페이징!!
+    5. 회원가입, 로그인....
+    6. 관리자모드/페이지
