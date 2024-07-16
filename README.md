@@ -444,6 +444,8 @@ https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/4a2a9746-908e-
     22. _layout.cshtml Board 링크 수정
     23. /Controller/BoardController.cs를 생성(모델, 뷰 연결)
         - Entity Frmework를 사용하며 뷰가 포함된 MVC컨트롤러
+          ![an0004](https://github.com/user-attachments/assets/fabb4320-3b9d-470a-b26d-f23c91fde192)
+
 
 10일차
 - ASP.NET Core 포트폴리오 웹사이트, MyPortfolio
