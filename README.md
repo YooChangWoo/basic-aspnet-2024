@@ -447,11 +447,33 @@ https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/4a2a9746-908e-
           ![an0004](https://github.com/user-attachments/assets/fabb4320-3b9d-470a-b26d-f23c91fde192)
 
 
-10일차
+## 10일차
 - ASP.NET Core 포트폴리오 웹사이트, MyPortfolio
     1. Board.cs 멤버속성 ModeDate -> ModDate
+        - BoardController.cs에서 ModeDate -> ModDate 변경
+        - Views/Board/*.chtml ModeDate -> ModDate 변경
+    2. ASP.NET Core 템플릿으로 만들어주는 CRUD(Insert, select, Update, Delete)
     2. 테이블 삭제, 재성성
     3. 게시판 관련된 화면 수정작업
+        - Views/Board/Index.cshtml 게시판 리스트화면 수정
+        - Index.cshtml 텡블 틀 변경, 삭제, 수정, 상세버튼 삭제
+        - Models/Board.cs에 테이블 한글이름 추가 DisplayName()
+
+        - Views/Board/Details.cshtml 부트스트랩 사용
+        - 수정, 삭제 등 버튼 디자인 적용
+        - Views/Board/Create.cshtml 부트스트랩 사용
+
+    5. SSMS에서 Board테이블 Hit, RegDate, ModDate Null허용으로 변경
+
+    6. 웹사이트 동작 순서
+        1. https://localhost:7154/Board/Create 링크오픈
+        2. BoardController -> Create 액션메서드 발동
+        3. Submit -> BoardController -> Create 액션메서드 발동
+        4. Create 액션 메서드 내 로직처리 DB에 데이터 입력
+        5. Models/Board.cd ModDate를 Datetime -> DateTime? 변경
+        6. Edit 동일, Create.cshtml 내용을 그대로 복사/ 붙여넣기 단, asp-action-"Edit"로 변경 !!!
+
+## 11일차
     4. 페이징!!
     5. 회원가입, 로그인....
     6. 관리자모드/페이지
