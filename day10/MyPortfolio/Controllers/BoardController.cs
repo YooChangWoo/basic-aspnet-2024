@@ -65,7 +65,7 @@ namespace MyPortfolio.Controllers
             // 아무값도 입력하지 않으면 ModelState.IsValid는 false
             if (ModelState.IsValid)
             {
-                board.ModDate = null;
+                board.ModDate = now;
                 _context.Add(board);    // DB 객체에 저장
                 // DB Insert to Commit 실행
                 await _context.SaveChangesAsync();
