@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MyPortfolio.Controllers
 {
     public class ContactController : Controller
     {
-        public IActionResult Index()
+        // GET: ContactController
+        public ActionResult Index()
         {
             return View();
         }

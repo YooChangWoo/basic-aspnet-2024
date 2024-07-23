@@ -5,6 +5,7 @@ namespace MyPortfolio.Data
 {
     public class AppDbContext : DbContext
     {
+        // 생성자
         public AppDbContext(DbContextOptions options) : base(options)
         {
         }
