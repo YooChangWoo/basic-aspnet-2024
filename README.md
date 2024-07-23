@@ -509,6 +509,10 @@ https://github.com/YooChangWoo/basic-aspnet-2024/assets/158007388/4a2a9746-908e-
             ```
             3. Index() 내 로직 수정
             4. Views/Board/Index.cshtml 화면코드 수정
+            
+            https://github.com/user-attachments/assets/f2ef7136-7de1-4aed-8ead-909c51ef8103
+
+
 
     5. 검색
         - FromSqlRaw() 메서드 변경
